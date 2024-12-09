@@ -8,8 +8,9 @@
       "module": "esnext",
       "moduleResolution": "bundler",
       "target": "es2015",
-  
+      "strictNullChecks": false,
       "allowJs": true,
+      "noImplicitAny": false,
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
       "isolatedModules": true,
